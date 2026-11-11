@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Keep Window Open",
+  "version": "1.0.0",
+  "description": "Keep a Chrome window open when its last regular tab is closed.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
